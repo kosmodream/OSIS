@@ -1,0 +1,1059 @@
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/Fonts/Comforta/Comfortaa-VariableFont_wght.ttf); 
+}
+@font-face {
+	font-family: 'FontName2'; 
+	src: url(/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf); 
+}
+html { 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,*::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #cac9c9;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.cont {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #787A91;
+    height: 65px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-title {
+	padding: 20px 0px 15px 0px;
+    transition: 0.3s;
+    height: 10px;
+}
+.menu-title:hover {
+    margin-top: -7px;
+}
+.menu-link {
+	font-size: 21px;
+    font-family: 'FontName';
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.menu-link:hover {
+    border-bottom: 3px solid #0F044C;
+}
+.menu-link1 {
+    border-bottom: 3px solid #0F044C;
+    font-family: 'FontName';
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
+.menu-title1 {
+    padding: 20px 0px 15px 0px;
+    margin-top: -7px;
+}
+.logoper {
+    display: flex;
+    height: 100px;  
+}
+.logo {
+    background-color: #141E61;
+    color: white;
+    width: 300px;
+}
+.oper {
+    background-color: #0F044C;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.osis {
+    margin-top: 27px;
+    font-family: 'FontName';
+    margin-right: 190px;
+}
+.svg {
+    width: 95px;
+    display: block;
+    margin: 0 auto;
+}
+.osnova {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 150vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.osnova2 {
+    margin-left: 30px;
+}
+.uvazh {
+    font-family: 'FontName';
+    font-size: 20pt;
+    text-align: center;
+}
+.font-size {
+    font-size: 13pt;
+}
+.footer {
+    background-color: #0F044C;
+    height: 430px;
+    font-family: 'FontName';
+    color: white;
+    box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 90px;
+    margin-top: auto;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 60px 15px;
+}
+td {
+    font-size: 10pt;
+    text-align: center;
+}
+th {
+    font-size: 14pt;
+}
+.menu-link2 {
+    text-decoration: none;
+    color: white;
+}
+.menu-link2:hover {
+    text-decoration: underline;
+}
+.ter {
+    width: 250px;
+    padding-right: 40px;
+}
+.dalee {
+    width: 200px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: 'FontName';
+    position: relative;
+    bottom: 120px;
+    transition: 0.5s;
+}
+.dalee:hover {
+    box-shadow: 10px 10px 0px #787A91;
+}
+.dalee2 {
+    color: black;
+    font-size: 13pt;
+}
+.ivan {
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ivan2 {
+    text-align: center;
+}
+.ivan3 {
+    width: 40px;
+}
+.ivan4 {
+    width: 35px;
+}
+.pic-block{
+    margin-left: 20px;
+}
+.logo_footer {
+    width: 500px;
+    border-top: 1px solid white;
+    display: block;
+    margin: 0 auto;
+}
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+    overflow: hidden;
+}
+.hvrbox-layer_bottom {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179);
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+/*Теория*/
+
+.osnova2 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 345vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.title {
+    font-size: 20px;
+}
+.line {
+    border-bottom: 1px solid white;
+    width: 450px;
+    margin: 0 auto;
+}
+.teor1 {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+}
+.first-box {
+    background-color: #787A91;
+    padding: 10px;
+    border-radius: 15px;
+    width: 1150px;
+    margin: 0 auto;
+}
+.podpis {
+    margin-top: 7px;
+    margin-left: 24px;
+}
+.t1img {
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.img-centr {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.font-size2 {
+    font-size: 13pt;
+    text-indent: 30px;
+    margin-top: 5px;
+}
+.t1img2 {
+    width: 500px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.soder {
+    font-weight: 500;
+    font-size: 15pt;
+}
+.soder-block {
+    background-color: #030b79;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.spisok {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.spisok:hover {
+    text-decoration: underline;
+}
+.t1img3 {
+    width: 350px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.t1img4 {
+    width: 430px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/*Практика*/
+
+.soder-block2 {
+    background-color: #030b79;
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.font-size3 {
+    font-size: 13pt;
+    margin-left: 20px;
+}
+.knopa-block {
+    text-align: center;
+}
+.knopa-link {
+    text-decoration: none;
+    color: black;
+}
+.knopa {
+    width: 200px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: 'FontName';
+    transition: 0.5s;
+}
+.knopa:hover {
+    box-shadow: 10px 5px 0px #141E61;
+}
+.knopa2 {
+    color: black;
+    font-size: 20px;
+}
+
+/*Учебники*/
+
+.kat {
+    background-color: #787A91;
+    width: 290px;
+    text-align: center;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.kat-img {
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.kat-img:hover {
+    scale: 1.1;
+}
+.kat-block {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 420px;
+}
+.osnova3 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 100vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.kat-inblock {
+    background-color: #585757;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 160px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.left {
+    text-align: left;
+    margin-top: 15px;
+    text-align: center;
+}
+.knopa-link2 {
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+}
+.knopa3 {
+    width: 200px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: 'FontName';
+    transition: 0.5s;
+}
+.knopa3:hover {
+    box-shadow: 0px 12px 0px #787A91;
+}
+.kat-img2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 170px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.kat-img2:hover {
+    scale: 1.1;
+}
+.kat-inblock2 {
+    background-color: #585757;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 160px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.kat-img3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 220px;
+    transition: 0.3s;
+    margin-top: 35px;
+}
+.kat-img3:hover {
+    scale: 1.1;
+}
+
+/*Тесты*/
+
+.osnova4 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 80vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 13px;
+}
+.test {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #0F044C;
+}
+.test-details {
+    padding: 10px;
+}
+.test-title {
+    font-size: 20px;
+    margin: 0;
+}
+.test-description {
+    margin: 5px 0;
+}
+.knopa4 {
+    width: 200px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: 'FontName';
+    transition: 0.5s;
+}
+.knopa4:hover {
+    box-shadow: 0px 10px 0px #787A91;
+}
+.knopa-link3 {
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;
+}
+
+/*Вопросы и ответы*/
+
+.faq-header{
+    font-size: 42px;
+    border-bottom: 1px dotted #ccc;
+    padding: 24px;
+}
+.faq-content {
+    margin: 0 auto;
+}
+.faq-question {
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+}
+.panel-title {
+    font-size: 24px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+}
+.panel-content {
+    font-size: 20px;
+    padding: 0px 14px;
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+    color: white;
+    font-family: 'FontName';
+}
+  .panel:checked ~ .panel-content{
+    height: auto;
+    opacity: 1;
+    padding: 14px;
+}
+.plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+    z-index: 5;
+    font-size: 42px;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+.panel:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.panel {
+    display: none;
+}
+.osnova5 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 120vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*Введение в ОС*/
+
+.spisok2 {
+    list-style: none;
+}
+.tekst {
+    margin-left: 20px;
+    text-indent: 25px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.osnova6 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 600vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.tekst-spisok {
+    list-style:circle;
+    margin-left: 37px;
+    line-height: 1.5;
+}
+.zagolovok {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tekst-spisok2 {
+    line-height: 1.5;
+    margin-left: 37px;
+}
+
+/*Структура ОС*/
+
+.osnova7 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 370vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*Подсистема*/
+
+.osnova8 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 400vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*ПР1*/
+
+.numer {
+    margin-left: 40px;
+    line-height: 1.5;
+}
+.kartinka {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+}
+.osnova9 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 230vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.kart-block {
+    text-align: center;
+}
+
+/*ПР2*/
+
+.kartinka2 {
+    display: flex;
+    margin: 0 auto;
+}
+.osnova10 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 330vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*ПР3*/
+
+.kartinka4 {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+}
+.kartinka3 {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 520px;
+}
+.osnova11 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 250vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*ПР3*/
+
+.osnova12 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 170vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/*ПР4*/
+
+.osnova13 {
+    font-family: 'FontName';
+    background-color: #141E61;
+    color: white;
+    padding: 20px;
+    width: 1300px;
+    height: 300vh;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    margin-top: 60px;
+}
+.numer-dot {
+    list-style: circle;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+.numer-bot {
+    margin-left: 40px;
+    line-height: 1.5;
+}
+
+/*Тест1*/
+
+main{
+    width: 100%;
+    height: 700px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cac9c9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.game-quiz-container{
+    width: 40rem;
+    height: 30rem;
+    background-color: #787A91;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.game-details-container{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.game-details-container h1{
+    font-size: 1.2rem;
+}
+.game-question-container{
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkgray;
+    border-radius: 25px;
+}
+.game-question-container h1{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 3px;
+}
+.game-options-container{
+    width: 80%;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.game-options-container span{
+    width: 45%;
+    height: 5rem;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+span label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+    text-align: center;
+}
+span label:hover{
+    color: white;
+}
+input[type="radio"] {
+    position: relative;
+    display: none;
+}
+input[type=radio]:checked ~ .option {
+    background: rgb(42, 148, 0);
+}
+.next-button-container{
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.next-button-container button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    background: none;
+    color: rgb(25, 25, 25);
+    font-weight: 600;
+    border: 2px solid rgb(167, 167, 167);
+    cursor: pointer;
+    outline: none;
+    font-family: 'FontName';
+}
+.next-button-container button:hover{
+    background-color: rgb(143, 93, 93);
+}
+.modal-container{
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    -webkit-animation: fadeIn 1.2s ease-in-out;
+    animation: fadeIn 1.2s ease-in-out;
+}
+.modal-content-container{
+    height: 20rem;
+    width: 25rem;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+.modal-content-container h1{
+    font-size: 1.3rem;
+    height: 3rem;
+    color: lightgray;
+    text-align: center;
+}
+.grade-details{
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.grade-details p{
+    color: white;
+    text-align: center;
+}
+.modal-button-container{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-button-container button{
+    width: 10rem;
+    height: 2rem;
+    background: none;
+    outline: none;
+    border: 1px solid rgb(252, 242, 241);
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.modal-button-container button:hover{
+    background-color: rgb(83, 82, 82);
+}
+@media(min-width : 300px) and (max-width : 350px){
+    .game-quiz-container{
+        width: 90%;
+        height: 80vh;
+     }
+     .game-details-container h1{
+        font-size: 0.8rem;
+     }
+
+     .game-question-container{
+        height: 6rem;
+     }
+     .game-question-container h1{
+       font-size: 0.9rem;
+    }
+
+    .game-options-container span{
+        width: 90%;
+        height: 2.5rem;
+    }
+    .game-options-container span label{
+        font-size: 0.8rem;
+    }
+    .modal-content-container{
+        width: 90%;
+        height: 25rem;
+    }
+
+    .modal-content-container h1{
+        font-size: 1.2rem;
+    }
+}
+@media(min-width : 350px) and (max-width : 700px){
+   .game-quiz-container{
+       width: 90%;
+       height: 80vh;
+    }
+    .game-details-container h1{
+        font-size: 1rem;
+    }
+
+    .game-question-container{
+        height: 8rem;
+    }
+
+    .game-question-container h1{
+        font-size: 0.9rem;
+     }
+
+    .game-options-container span{
+        width: 90%;
+    }
+    .modal-content-container{
+        width: 90%;
+        height: 25rem;
+    }
+    .modal-content-container h1{
+        font-size: 1.2rem;
+    }
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.body-test {
+    font-family: 'FontName';
+}
+.test1 {
+    text-align: center;
+    margin-top: 35px;
+}
